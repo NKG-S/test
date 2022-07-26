@@ -25,7 +25,7 @@ const botGameChoice = () => {
 }
 
 
-function playGame(userChoice){
+const playGame = (userChoice) => {
     // console.log(userChoice);
     const botChoice = botGameChoice() 
     // console.log(botChoice);
