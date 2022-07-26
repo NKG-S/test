@@ -1,0 +1,25 @@
+body{
+    background-color: darkmagenta;
+}
+.buttons{
+    width: 75%;
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 50px;
+}
+.rpsButtonsDiv,.resetButton{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin: auto;
+}
+.rpsButtons{
+    font-size: xx-large;
+    text-align: center;
+    height: 85px;
+    width: 85px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
