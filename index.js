@@ -13,10 +13,9 @@ const winner = document.getElementById('winner')
 // console.log(bot.innerText)
 // console.log(player.innerText)
 // console.log(winner.innerText)
-
+let itemList = ['rock','paper','scissor','drow']
 
 const botGameChoice = () => {
-    let itemList = ['rock','paper','scissors']
     const choiceNumber = Math.floor(Math.random()*3)
     console.log(choiceNumber)
     const choiceItem = itemList[choiceNumber]
@@ -31,8 +30,7 @@ function playGame(userChoice){
     const botChoice = botGameChoice() 
     // console.log(botChoice);
     let result = {}
-
-    let itemList = ['rock','paper','scissor','drow']
+    
     if (userChoice == botChoice){
         result = {botResult: botChoice, userChoice: userChoice, winnerResult: itemList[3]}
 
